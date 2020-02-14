@@ -1,0 +1,22 @@
+{
+  "name": "assimilation-tubule",
+  "version": "0.0.1",
+  "description": "Resistance is futile. You must comply.",
+  "main": "index.js",
+  "bin": {
+    "assimilate": "./index.js"
+  },
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:debloper/assimilation-tubule.git"
+  },
+  "author": "Soumya Deb <debloper@gmail.com> (https://debs.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/debloper/assimilation-tubule/issues"
+  },
+  "homepage": "https://github.com/debloper/assimilation-tubule"
+}
