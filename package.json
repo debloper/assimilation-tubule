@@ -1,10 +1,10 @@
 {
-  "name": "assimilation-tubule",
-  "version": "0.0.1",
+  "name": "@debloper/assimilation-tubule",
+  "version": "0.0.2",
   "description": "Resistance is futile. You must comply.",
   "main": "index.js",
   "bin": {
-    "assimilate": "./index.js"
+    "assimilation-tubule": "./index.js"
   },
   "scripts": {
     "start": "node index"
