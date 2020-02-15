@@ -4,11 +4,12 @@ const cli = require('inquirer')
 const { params } = require('../choices')
 
 const sampleConfig = {
-  file: "path/to/local/file.ext",
+  file: "path/of/remote/file.ext",
   self: "githubUsername",
   token: "accessToken",
   target: "targetUserOrg",
   branch: "targetBranch",
+  content: "path/to/local/file.ext",
   message: "commitMessage"
 }
 

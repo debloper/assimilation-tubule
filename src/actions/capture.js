@@ -1,6 +1,10 @@
 const fs = require('fs')
 const go = require('axios')
 
+// @TODO: add a check whether a config file exists
+// Provide only `config` option in main CLI if not
+// Confirm overwriting existing config, if it does
+
 // We need some information from the config file
 const config = require([process.cwd(), 'config.json'].join('/'))
 // Using basic auth, analogous to `curl -u user:pass`

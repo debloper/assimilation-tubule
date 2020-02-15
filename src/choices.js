@@ -11,7 +11,7 @@ module.exports = {
     {
       type: 'input',
       name: 'file',
-      message: 'File path/name to be committed:'
+      message: 'File path/name in the repo:'
     },
     {
       type: 'input',
@@ -33,6 +33,11 @@ module.exports = {
       name: 'branch',
       default: 'master',
       message: 'Target remote branch to commit to:'
+    },
+    {
+      type: 'input',
+      name: 'content',
+      message: 'Local file name to be committed:'
     },
     {
       type: 'input',
