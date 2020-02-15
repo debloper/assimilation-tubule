@@ -1,6 +1,6 @@
 {
   "name": "@debloper/assimilation-tubule",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Resistance is futile. You must comply.",
   "main": "index.js",
   "bin": {
