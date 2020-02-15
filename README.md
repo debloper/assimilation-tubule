@@ -1,36 +1,28 @@
 # Assimilation Tubule
 **Resistance is futile. You must comply.**
 
+[![](https://img.shields.io/github/v/release/debloper/assimilation-tubule?include_prereleases&logo=git)](https://github.com/debloper/assimilation-tubule/releases)
+[![](https://img.shields.io/npm/v/@debloper/assimilation-tubule?label=npm%20registry&logo=npm)](https://www.npmjs.com/package/@debloper/assimilation-tubule)
+[![](https://img.shields.io/npm/v/@debloper/assimilation-tubule?label=GitHub%20registry&registry_uri=https%3A%2F%2Fnpm.pkg.github.com&logo=github)](https://github.com/debloper/assimilation-tubule/packages)
+
+![](https://img.shields.io/david/debloper/assimilation-tubule?logo=javascript)
+![](https://github.com/debloper/assimilation-tubule/workflows/Publish%20Node.js%20Packages/badge.svg)
+
 ## Usage
 ```sh
 # To run it from scratch
 npx assimilation-tubule
 
-# Or, if you already have config.js & repolist.json
-npx assimilation-tubule --inject
+# To create the config file
+npx assimilation-tubule config
+
+# To prepare the list of repos
+npx assimilation-tubule capture
+
+# If config.json && repolist.json
+npx assimilation-tubule assimilate
 
 # @TODO: enable passing config params as env vars
-```
-
-The `config.js` file should look like this:
-```js
-export default {
-  file: "path/to/local/file.ext",
-  self: "githubUsername",
-  token: "accessToken",
-  target: "targetUserOrg",
-  branch: "targetBranch",
-  message: "commitMessage"
-}
-```
-
-And the `repolist.json` should look like this:
-```json
-[
-  "first-repo",
-  "second-repo",
-  "..."
-]
 ```
 
 ## The 'Origin'

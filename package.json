@@ -1,6 +1,6 @@
 {
   "name": "@debloper/assimilation-tubule",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Resistance is futile. You must comply.",
   "main": "index.js",
   "bin": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/debloper/assimilation-tubule/issues"
   },
-  "homepage": "https://github.com/debloper/assimilation-tubule"
+  "homepage": "https://github.com/debloper/assimilation-tubule",
+  "dependencies": {
+    "inquirer": "^7.0.4"
+  }
 }
