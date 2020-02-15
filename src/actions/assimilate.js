@@ -21,7 +21,7 @@ const link = {
   file: `contents/${config.file}`
 }
 // Prepare the nanoprobes
-const buffer = get('.gitignore')
+const buffer = get(config.content)
 // Prepare the payload
 const data = {
   message: config.message,
